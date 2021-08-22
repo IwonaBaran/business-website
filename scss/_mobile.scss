@@ -84,8 +84,15 @@
   }
 
   .slide {
-    width: 430px;
-    height: 310px;
+    width: 75%;
+    height: auto;
+  }
+
+  main#contact {
+    h1 {
+      line-height: 5rem;
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -95,10 +102,5 @@
   }
   .projects {
     grid-template-columns: 1fr;
-  }
-
-  .slide {
-    width: 360px;
-    height: 260px;
   }
 }
